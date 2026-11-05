@@ -1,1 +1,0 @@
-Blancas abajo · puntos = movimientos · aro = captura · R rey, D dama, T torre, A alfil, C caballo
