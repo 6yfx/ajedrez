@@ -20,3 +20,18 @@ body{display:flex;flex-direction:column;align-items:center;gap:12px;padding:16px
 #b{--c:min(94vw,440px);width:var(--c);height:var(--c);display:grid;grid-template-columns:repeat(8,minmax(0,1fr));grid-template-rows:repeat(8,minmax(0,1fr));border-radius:10px;overflow:hidden;box-shadow:0 8px 30px #1f1b2e30}
 .q{position:relative;display:flex;align-items:center;justify-content:center;min-width:0;min-height:0;font-size:calc(var(--c)/8*.56);line-height:1;user-select:none;-webkit-tap-highlight-color:transparent;font-family:"Segoe UI Symbol","Noto Sans Symbols 2","Apple Symbols","DejaVu Sans",sans-serif}
 .l{background:var(--lt)}.d{background:var(--dk)}
+  </div>
+</div>
+<div id="edit" class="hide">
+  <div id="pal"></div>
+  <div class="row" style="margin-top:12px">
+    <button class="btn" id="mw"></button>
+    <button class="btn" id="ec">Vaciar</button>
+    <button class="btn" id="ei">Inicial</button>
+    <button class="btn pri" id="go">Jugar desde aquí</button>
+  </div>
+</div>
+<small class="n">Blancas abajo · puntos = movimientos · aro = captura · R rey, D dama, T torre, A alfil, C caballo</small>
+<script src="app.js"></script>
+</body>
+</html>
